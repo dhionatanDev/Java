@@ -1,0 +1,39 @@
+package Aplication;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import Entites.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		List<Integer> list = new ArrayList<>();
+		List<String> list2 = new ArrayList<>();
+		List<Double> list3 = new ArrayList<>();
+		
+		Employee funcionario = new Employee(null, null, null);
+		
+		System.out.println("Informe a Id: ");
+		funcionario.setId(sc.nextInt());
+		sc.nextLine();
+		list.add(funcionario.getId());
+		System.out.println(list);
+		
+		System.out.println("Informe o nome: ");
+		
+		funcionario.setName(sc.next());
+		sc.nextLine();
+		list2.add(funcionario.getName());
+		System.out.println(list2);
+		
+		System.out.println("Informe o salario: ");
+		funcionario.setSalary(sc.nextDouble());
+		list3.add(funcionario.getSalary());
+		System.out.println(list3);
+	}
+
+}

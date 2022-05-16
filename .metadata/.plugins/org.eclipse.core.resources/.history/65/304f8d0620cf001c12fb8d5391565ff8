@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int n = 0;
+		int r = 0;
+		int calc=0;
+		
+		
+		System.out.println("Informe um numero entre 1 e 60: ");
+		n = sc.nextInt();
+		
+		for (int i = 0; i < n; i++ ) {
+			System.out.println("oi");
+		
+	}
+	
+	
+	
+	}
+}

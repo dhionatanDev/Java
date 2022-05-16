@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int n = 0;
+		int r = 0;
+		int calc=0;
+		int i = 0;
+		
+		System.out.println("Informe um numero entre 1 e 60: ");
+		n = sc.nextInt();
+		
+		while(i == n ) {
+			System.out.println("Informe um numero entre 1 e 60: ");
+			n = sc.nextInt();
+			
+			while ( r <= n  ) {
+				if(i%3 == 0) {
+					calc = i;
+					r ++;
+					i ++;
+					System.out.println(calc);
+					if(i%3 == 3){
+						calc = i;
+						r ++;
+						i++;
+						System.out.println(calc);
+					}
+				}
+				
+			}
+			
+		}
+	}
+	
+	
+	
+
+}

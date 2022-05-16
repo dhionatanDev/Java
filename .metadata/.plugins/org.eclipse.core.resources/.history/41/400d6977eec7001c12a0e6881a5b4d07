@@ -1,0 +1,17 @@
+package atv2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dia;
+		float valor;
+		char tipo;
+		Scanner lerTeclado = new Scanner(System.in);
+		System.out.println("Informe o dia da Locação: Segunda = 1, terça = 2, quarta = 3, quinta = 4"
+				+ "sexta = 5, sabado = 6, domingo = 7");
+	}
+
+}

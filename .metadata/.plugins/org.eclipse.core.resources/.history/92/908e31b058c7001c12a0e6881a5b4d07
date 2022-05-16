@@ -1,0 +1,26 @@
+package numeroPrimo;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numero;
+		Scanner lerTeclado = new Scanner(System.in);
+		numero = lerTeclado.nextInt();
+		
+		for (int n=2; n<numero;n++) {
+			
+			int teste = numero % n;
+			if(teste == 0) {
+				System.out.println("Não é primo");
+			}
+			else{System.out.println("É primo");
+		}
+		
+		
+	}
+
+ }
+}

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int n = 1;
+		double f = 0;
+		double g = 0;
+		int calc = 0;
+		int p = 0;
+	
+		
+		   
+		while (n !=0) {
+			System.out.println("Informe a posição: ");
+			n = sc.nextInt();				
+			f = Math.pow(((1 + Math.sqrt(5))/2),n);
+			g = Math.pow(((1 - Math.sqrt(5))/2),n);
+			calc = (int) ((f - g) / Math.sqrt(5));
+			/*- (Math.pow(((1+Math.sqrt(5))/2),i)))	/ Math.sqrt(5))*/
+			
+			
+			
+			System.out.println(calc);
+			
+			
+			
+		}
+	}
+
+}

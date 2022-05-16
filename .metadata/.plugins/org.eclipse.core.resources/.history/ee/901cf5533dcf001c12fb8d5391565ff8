@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 3;
+		double f = 0;
+		
+		for (float i = 1; i < n; i++) {
+			f = ((Math.pow(((1+Math.sqrt(5))/2),i) - (Math.pow(((1+Math.sqrt(5))/2),i)))/ Math.sqrt(5));
+			System.out.println(f);
+			
+		}
+	}
+
+}

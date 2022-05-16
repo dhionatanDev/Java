@@ -1,0 +1,31 @@
+package entites;
+
+public class alunos {
+	public String aluno;
+	public double oi;
+	public double n1;
+	public double n2;
+	public double n3;
+	public String alo;
+	
+	public double medi1(){
+	return n1 + n2 + n3;
+				
+		}	
+	public void teste() {
+		if(medi1() < 60) {
+			oi = 60 - medi1();
+			
+		}
+		else {
+			oi = medi1();
+			
+		}
+		
+	}
+	
+	public String toString() {
+		return "FINAL GRADE = " + teste() ;
+	}
+
+}

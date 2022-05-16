@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648943164170_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648943164197_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1651112905465_6" label="Salvos" name="Salvos">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basicoJava3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista1EstruturaCondicionalAtv4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/baasicoJava2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista2EstruturaCondicionalAtv3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDs4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDS8" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicional" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista1EstruturaCondicionalAtv1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista1EstruturaCondicionalAtv5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista2EstruturaCondicionalAtv4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDs5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basicoJava5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Curso" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TesteAtividadeAlgoritmo" type="4"/>
+<item elementID="=atividadeSaida" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estruturaCondicionalComposta" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/curso_programacao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atividadeString" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista1EstruturaCondicionalAtv2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista2EstruturaCondicionalAtv1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista2EstruturaCondicionalAtv5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDs2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDS6" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basicoJava4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basico 6" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista1EstruturaCondicionalAtv3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atividadeTriangulos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista2EstruturaCondicionalAtv2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDs3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lista3EstruturaCondicionalDS7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basicoJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/aulaAlgoritimo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/numeroPrimo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/aulaAlgoritimoLista4Atv13" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648943188367_2" label="Window Working Set" name="Aggregate for window 1648943188367"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1649900152291_3" label="Window Working Set" name="Aggregate for window 1649900152290"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650075560806_4" label="Window Working Set" name="Aggregate for window 1650075560806"/>
+</workingSetManager>

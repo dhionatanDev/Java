@@ -1,0 +1,5 @@
+package entites.Enums;
+
+public enum OrderStatus {
+
+}

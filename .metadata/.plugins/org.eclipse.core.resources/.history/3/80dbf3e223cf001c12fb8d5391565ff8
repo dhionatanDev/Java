@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		int n = 1;
+		int r = 0;
+		float calc = 0;
+		int i = 0;
+
+		while (n != 0) {
+			System.out.println("n");
+			n = sc.nextInt();
+
+			while (i < n) {
+				calc = calc + 1;
+
+				if (calc % 3 == 0) {
+				
+					System.out.println(calc);
+					i = i + 1;
+				}
+
+			}
+		}
+
+	}
+}

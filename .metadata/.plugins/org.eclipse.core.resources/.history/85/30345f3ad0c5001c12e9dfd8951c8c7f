@@ -1,0 +1,49 @@
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double xA, xB, xC, yA, yB, yC, calculoPa, calculoPb, areaA, areaB;
+		xA = 0;
+		xB =0;
+		xC = 0;
+		yA = 0;
+		yB = 0;
+		yC = 0;
+		calculoPa = 0;
+		areaA = 0;
+		areaB = 0;
+		
+		Scanner lerTeclado = new Scanner(System.in);
+		
+		System.out.println("Informe o valor do lado A do primeiro Triangulo: ");
+		xA = lerTeclado.nextDouble();
+		System.out.println("Informe o valor do lado B do primeiro Triangulo: ");
+		xB = lerTeclado.nextDouble();
+		System.out.println("Informe o valor do lado C do primeiro Triangulo: ");
+		xC = lerTeclado.nextDouble();
+		System.out.println("Informe o valor do lado A do segundo Triangulo: ");
+		yA = lerTeclado.nextDouble();
+		System.out.println("Informe o valor do lado B do segundo Triangulo: ");
+		yB = lerTeclado.nextDouble();
+		System.out.println("Informe o valor do lado C do segundo Triangulo: ");
+		yC = lerTeclado.nextDouble();
+		
+		calculoPa = (xA +xB + xC) / 2;
+		calculoPb = (yA + yB + yC) / 2;
+		
+		areaA = Math.sqrt(calculoPa * ((calculoPa - xA)* (calculoPa - xB)* (calculoPa - xC)));
+		areaB = Math.sqrt(calculoPb * ((calculoPb - yA)* (calculoPb - yB)* (calculoPb - yC)));
+		if (areaA > areaB) {
+			System.out.println(areaA);
+					}
+		else {
+			System.out.println(areaB);
+		}
+		lerTeclado.close();
+	}
+
+}

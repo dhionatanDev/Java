@@ -1,0 +1,20 @@
+package entites;
+
+public class alunos {
+	public String aluno;
+	public double n1;
+	public double n2;
+	public double n3;
+		
+	public double medi1(){
+	return n1 + n2 + n3;
+				
+		}	
+	
+		
+	
+	public String toString() {
+		return "FINAL GRADE = " + medi1() ;
+	}
+
+}

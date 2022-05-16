@@ -1,0 +1,30 @@
+package aplication;
+
+import java.util.Scanner;
+
+import utilitis.Client;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		double saldo;
+		System.out.println("Informe o numero da conta: ");
+		int conta = sc.nextInt();
+		System.out.println("Informe o nome do titular");
+		String name = sc.next();
+		System.out.println("Você vai fazer o deposito Inicial ? (y/n)");
+		char tipo = sc.next().charAt(0);
+		
+		if(tipo == 'y') {
+			System.out.println("Informe o valor do deposito inicial: ");
+			saldo = sc.nextDouble();
+			
+		}
+
+		System.out.println("Dados da conta: \\");
+		System.out.println();
+	}
+
+}
