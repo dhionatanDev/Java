@@ -11,11 +11,16 @@
     <fullyQualifiedTypeName name="entites.Enums.OrderStatus"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="entites.Worker"/>
     <fullyQualifiedTypeName name="entites.enums.WokerLevel"/>
     <fullyQualifiedTypeName name="entites.Department"/>
     <fullyQualifiedTypeName name="entites.HourContract"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="entites.Post"/>
+    <fullyQualifiedTypeName name="entites.Products"/>
+    <fullyQualifiedTypeName name="entites.OrderItem"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entites.client"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

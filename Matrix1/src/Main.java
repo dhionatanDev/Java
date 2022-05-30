@@ -18,6 +18,7 @@ public class Main {
 			
 		}
 	}
+	for(int i = 0; i<)
 	
 	System.out.println("Numero da consulta: ");
 	int x = sc.nextInt();
